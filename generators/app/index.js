@@ -41,7 +41,7 @@ module.exports = class extends Generator {
 
   install () {
     if (this.props.install) {
-      this.installDependencies();
+      this.yarnInstall();
     } else {
       this.log('Run ' + chalk.blue('npm install') + ' to install dependencies later');
     }

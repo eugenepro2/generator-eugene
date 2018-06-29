@@ -12,14 +12,14 @@ module.exports = [
     name: 'templates',
     message: 'Choose template engine',
     choices: [
-      {
-        name: 'Nunjucks',
-        value: 'nunjucks'
-      },
-      {
-        name: 'Swig',
-        value: 'swig'
-      },
+      // {
+      //   name: 'Nunjucks',
+      //   value: 'nunjucks'
+      // },
+      // {
+      //   name: 'Swig',
+      //   value: 'swig'
+      // },
       {
         name: 'Jade',
         value: 'jade'
@@ -29,7 +29,7 @@ module.exports = [
         value: 'html'
       }
     ],
-    default: 0
+    default: 1
   },
   {
     type: 'list',
@@ -40,12 +40,12 @@ module.exports = [
         name: 'Sass + PostCSS',
         value: 'sass'
       },
-      {
-        name: 'PostCSS (with SugarSS and Stylelint)',
-        value: 'postcss'
-      }
+      // {
+      //   name: 'PostCSS (with SugarSS and Stylelint)',
+      //   value: 'postcss'
+      // }
     ],
-    default: 0
+    default: 1
   },
   {
     type: 'list',
@@ -75,12 +75,12 @@ module.exports = [
       {
         name: 'Iconfonts',
         value: 'iconfont',
-        checked: false
+        checked: true
       },
       {
         name: 'PNG sprites',
         value: 'png',
-        checked: false
+        checked: true
       }
     ]
   },
