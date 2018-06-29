@@ -100,9 +100,6 @@
 
 // TRANSITION
 
-=tr($what)
-  transition: $what
-
 =hide-text
   font: 0/0 a
   text-shadow: none
@@ -289,7 +286,7 @@
         url("#{$file-path}.ttf") format('truetype')
 
 
-=center($axis)
+=centera($axis)
   @if $axis == both
     +vcenter
   @else if $axis == h
@@ -300,3 +297,11 @@
     position: absolute
     top: 50%
     transform: translateY(-50%)
+
+=center
+  display: flex
+  justify-content: center
+  align-items: center
+
+=tr
+  transition: all 0.3s
