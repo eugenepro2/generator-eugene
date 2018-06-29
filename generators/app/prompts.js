@@ -24,10 +24,10 @@ module.exports = [
         name: 'Jade',
         value: 'jade'
       },
-      {
-        name: 'No templates, just pure html',
-        value: 'html'
-      }
+      // {
+      //   name: 'No templates, just pure html',
+      //   value: 'html'
+      // }
     ],
     default: 0
   },

@@ -19,7 +19,7 @@ module.exports = class extends Generator {
     // var done = this.async();
 
     this.log(yosay(
-      'Welcome to the first-rate ' + chalk.red('generator-man') + ' generator!'
+      'Welcome to the first-rate ' + chalk.red('generator-eugene') + ' generator!'
     ));
 
     // return this.prompt(prompts, function (props) {
