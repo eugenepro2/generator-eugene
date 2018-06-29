@@ -1,12 +1,12 @@
 {
-  "name": "generator-man",
+  "name": "generator-eugene",
   "version": "1.2.19",
   "description": "Coderiver scaffolding",
-  "homepage": "github.com/coderiver/generator-man",
+  "homepage": "github.com/eugenepro2/generator-eugene",
   "author": {
-    "name": "Coderiver",
-    "email": "html@coderiver.com.ua",
-    "url": "riverco.de"
+    "name": "Eugene",
+    "email": "eugenepro@icloud.com",
+    "url": "eugenee.pro"
   },
   "files": [
     "generators"
@@ -39,7 +39,7 @@
     "gulp-plumber": "^1.1.0",
     "yeoman-assert": "^2.2.1"
   },
-  "repository": "coderiver/generator-man",
+  "repository": "eugenepro2/generator-eugene",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

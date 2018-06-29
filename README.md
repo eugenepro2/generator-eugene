@@ -7,7 +7,7 @@ First, install [Yeoman](http://yeoman.io) and generator-man using [npm](https://
 
 ```bash
 npm install -g yo
-npm install -g generator-man
+npm install -g generator-eugene
 ```
 
 Then generate your new project:
@@ -22,7 +22,7 @@ Yeoman has a heart of gold. He&#39;s a person with feelings and opinions, but he
 
 ## License
 
-MIT © [Coderiver](http://riverco.de)
+MIT © [EugenePro](http://eugene.pro)
 
 
 [npm-image]: https://badge.fury.io/js/generator-man.svg
