@@ -29,7 +29,7 @@ module.exports = [
         value: 'html'
       }
     ],
-    default: 1
+    default: 0
   },
   {
     type: 'list',
@@ -94,6 +94,6 @@ module.exports = [
     type: 'confirm',
     name: 'install',
     message: 'Install dependencies right now?',
-    default: false
+    default: true
   }
 ];
