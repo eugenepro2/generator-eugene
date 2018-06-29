@@ -133,8 +133,6 @@ module.exports = function () {
     }
   }
 
-
-  this.fs.copyTpl(this.templatePath('src/index.yaml'),'src/index.yaml', props);
   
   // copy directories
   if (props.bundler === 'webpack') {
