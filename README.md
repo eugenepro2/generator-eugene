@@ -13,7 +13,7 @@ npm install -g generator-eugene
 Then generate your new project:
 
 ```bash
-yo man
+yo eugene
 ```
 
 ## Getting To Know Yeoman
@@ -22,7 +22,7 @@ Yeoman has a heart of gold. He&#39;s a person with feelings and opinions, but he
 
 ## License
 
-MIT © [EugenePro](http://eugene.pro)
+MIT © [EugenePro](http://eugenee.pro)
 
 
 [npm-image]: https://badge.fury.io/js/generator-man.svg
